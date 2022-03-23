@@ -8,21 +8,27 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
+
+<body>
     <div class="container">
-        <div class="imagen_login">
-            <img src="/assets/img/login_Imagen.png" alt="">
+        <div class="caja1">
+            <img class="imagen" src="assets/img/login_Imagen.png" alt="">
         </div>
-        <div class="formulario">
-            <form action="" method="get">
-                <h2>Login</h2>
-                <input type="text" id="usuario" name="usuario" placeholder="mail">
-                <input type="text" id="contraseña" name="contraseña" placeholder="contraseña">
-                <h1>¿olvidaste tu contraseña?</h1>
-                <button class="boton_Login">Login</button>
-                <h2>¿No tiene cuenta?</h2>
-                <h2>Registrese aqui</h2>
+        <form action="" method="get" class="caja2">
+            <div class="contenedor"></div>
+            <h1>Login</h1>
+            <div class="email">
+                <input type="text" id="usuario" name="usuario" placeholder="Mail">
+            </div>
+            <div class="password">
+                <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña ">
+            </div>
+            <p class="contraolvidada">¿olvidaste tu contraseña?</p>
+            <button>Login</button>
+            <p class="footer">¿No tienes cuenta?<a href="#">Registrese aqui</a></p>
+        </div>
         </form>
-    </div>
+
     </div>
 </body>
 <script src="assets/js/index.js"></script>
